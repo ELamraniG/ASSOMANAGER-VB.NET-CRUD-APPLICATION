@@ -8,7 +8,7 @@ Module Module1
 
     Public Sub connexion()
 
-        If con.State = ConnectionState.Closed Then
+        If con.State = ConnectionState.Open Then
             con.Close()
         End If
         con.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=AssoManager.accdb"
