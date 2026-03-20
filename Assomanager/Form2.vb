@@ -24,7 +24,7 @@ Public Class Form2
         If enregistrer.Text = "Ajouter" Then
             requete = "insert into roles(idrole, nomrole) values ('" + TextBox1.Text + "', '" + TextBox2.Text + "')"
         Else
-            requete = "update roles set idrole = '" + TextBox1.Text + "', nomrole = '" + TextBox2.Text + "' where idrole = '" + TextBox1.Text + "'"
+            requete = "update roles set idrole = '" + TextBox1.Text + "', nomrole = '" + TextBox2.Text + "' where idrole = '" + ancienidservice.Text + "'"
         End If
         connexion()
         cmdsql()
