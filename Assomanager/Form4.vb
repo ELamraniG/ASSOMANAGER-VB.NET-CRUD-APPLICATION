@@ -44,7 +44,7 @@ Public Class Form4
             requete = "INSERT INTO typeassociation (type, description) VALUES ('" & TextBox0.Text & "', '" & TextBox4.Text & "')"
             MsgBox("kkkk")
         Else
-            requete = "UPDATE typeassociation SET type = '" & TextBox0.Text & "', description = '" & TextBox0.Text & "' WHERE idtypeassociation = " & ancienidtypeassociation.Text
+            requete = "UPDATE typeassociation SET type = '" & TextBox0.Text & "', description = '" & TextBox4.Text & "' WHERE idtypeassociation = " & ancienidtypeassociation.Text
         End If
 
         connexion()
