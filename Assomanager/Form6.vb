@@ -86,7 +86,7 @@ Public Class Form6
 
         connexion()
 
-        If Not IsEditMode OrElse enregistrer3.Text = "Modifier" Then
+        If Not IsEditMode OrElse enregistrer3.Text = "Ajouter" Then
 
             requete = "INSERT INTO parametres (cle, valeur) VALUES ('" & TextBox10.Text & "', '" & TextBox11.Text & "')"
         Else
