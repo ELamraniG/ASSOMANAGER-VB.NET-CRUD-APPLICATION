@@ -96,7 +96,7 @@ Public Class Form8
             requete = "INSERT INTO categoriemembre (nomcategoriemembre) VALUES ('" & TextBox81.Text & "')"
         Else
 
-            requete = "UPDATE categoriemembre SET nomcategoriemembre = '" & TextBox81.Text & "' WHERE idcategoriemembre = " & TextBox81.Text
+            requete = "UPDATE categoriemembre SET nomcategoriemembre = '" & TextBox81.Text & "' WHERE idcategoriemembre = " & ParametreId
         End If
 
         cmdsql()
