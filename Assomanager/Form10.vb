@@ -90,7 +90,7 @@ Public Class Form10
 
         connexion()
 
-        If Not IsEditMode OrElse enregistrer10.Text = "Modifier" Then
+        If Not IsEditMode OrElse enregistrer10.Text = "Ajouter" Then
 
             requete = "INSERT INTO categoriedepenses (nomcategoriedepense) VALUES ('" & TextBox101.Text & "')"
         Else
