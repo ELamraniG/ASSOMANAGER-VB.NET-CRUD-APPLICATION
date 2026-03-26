@@ -43,7 +43,7 @@ Public Class Form18
                 telephone.Text = ""
                 email.Text = ""
                 idcategoriemembre.Text = ""
-                statut.SelectedIndex = 1
+                statut.SelectedIndex = 0
                 dateinscription.Value = Date.Now
             End If
         Catch ex As Exception
