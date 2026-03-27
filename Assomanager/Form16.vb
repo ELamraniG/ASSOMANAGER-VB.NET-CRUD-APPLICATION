@@ -103,7 +103,7 @@ Public Class Form16
 
 
             If idrole.Text.Contains("|") Then
-                roleId = idrole.Text.Substring(idrole.Text.IndexOf("|") + 1).Trim()
+                roleId = idrole.Text.Substring(0, idrole.Text.IndexOf("|")).Trim()
             Else
                 roleId = idrole.Text.Trim()
             End If
