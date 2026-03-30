@@ -117,7 +117,7 @@ Public Class Form14
         Else
 
             requete = "UPDATE documents SET titre = '" & TextBox141.Text & "', " & _
-                     "cheminfichier = '" & TextBox141.Text.Replace("'", "''") & "', " & _
+                     "cheminfichier = '" & TextBox142.Text.Replace("'", "''") & "', " & _
                      "typedocument = '" & ComboBox141.Text & "', " & _
                      "dateajout = #" & DatePicker141.Value.ToString("MM/dd/yyyy") & "# " & _
                      "WHERE iddocument = " & ParametreId
