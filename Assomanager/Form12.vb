@@ -130,7 +130,7 @@ Public Class Form12
 
             requete = "INSERT INTO evenements (titre, description, datedebut, datefin, lieu) VALUES " & _
                      "('" & TextBox121.Text & "', '" & TextBoxDescription.Text & "', " & _
-                     "#" & DatePickerFin.Value.ToString("MM/dd/yyyy") & "#, " & _
+                     "#" & DatePickerDebut.Value.ToString("MM/dd/yyyy") & "#, " & _
                      "#" & DatePickerFin.Value.ToString("MM/dd/yyyy") & "#, " & _
                      "'" & TextBoxLieu.Text & "')"
         Else
