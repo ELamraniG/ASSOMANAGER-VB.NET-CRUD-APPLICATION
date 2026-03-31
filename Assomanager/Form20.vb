@@ -41,7 +41,7 @@ Public Class Form20
                 montant.Text = ""
                 datepaiement.Value = Date.Now
                 modepaiement.SelectedIndex = 0
-                statut.SelectedIndex = 0
+                statut.SelectedIndex = 1
 
 
                 periodemois.SelectedIndex = Date.Now.Month - 1
