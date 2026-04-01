@@ -118,7 +118,7 @@ Public Class Form22
 
                     cmd.Parameters.Add("@p1", OleDbType.VarChar).Value = libelle.Text
                     cmd.Parameters.Add("@p2", OleDbType.Double).Value = montantValue
-                    cmd.Parameters.Add("@p3", OleDbType.Date).Value = Date.Now
+                    cmd.Parameters.Add("@p3", OleDbType.Date).Value = datedepense.Value
                     cmd.Parameters.Add("@p4", OleDbType.Integer).Value = Convert.ToInt32(categorieId)
                     cmd.Parameters.Add("@p5", OleDbType.VarChar).Value = fournisseur.Text
                     cmd.Parameters.Add("@p6", OleDbType.VarChar).Value = justificatif.Text
