@@ -134,7 +134,7 @@ Public Class Form24
 
                     Dim count As Integer = Convert.ToInt32(cmd.ExecuteScalar())
 
-                    If count > 1 Then
+                    If count > 0 Then
                         MsgBox("Ce membre est déjà inscrit à cet événement!", vbExclamation, "Message")
                         deconnexion()
                         Exit Sub
