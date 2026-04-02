@@ -185,7 +185,7 @@ Public Class menu
         If data.Read() Then
 
             nom = data(0).ToString()
-            typeutilisateur = data(3).ToString()
+            typeutilisateur = data(4).ToString()
 
 
             prenom = ""
