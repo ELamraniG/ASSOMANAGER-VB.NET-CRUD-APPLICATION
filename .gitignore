@@ -1,0 +1,12 @@
+.vs/
+bin/
+obj/
+TestResults/
+packages/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+*.vshost.*

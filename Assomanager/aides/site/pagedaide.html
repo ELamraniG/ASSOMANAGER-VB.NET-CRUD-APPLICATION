@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AssoManager - Gestion d'Associations</title>
+<style type="text/css">
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+<a name=haut></a>
+<header>
+<h1>AssoManager - Application de Gestion d'Associations</h1>
+</header>
+<main>
+<h2>Menu</h2>
+<ul>
+	<li><a href=#auth>Authentification</a>
+	<li><a href=#membres>Gestion des Adhérents</a>
+	<li><a href=#events>Activités et Événements</a>
+	<li><a href=#docs>Documents</a>
+	<li><a href=#finance>Finance</a>
+	<li><a href=#config>Configuration</a>
+</ul>
+
+<section class="feature">
+<a name=auth></a>
+<h2>Authentification</h2>
+<p>AssoManager est sécurisé avec un système d'authentification à trois niveaux :</p>
+<ul>
+	<li><strong>Administrateur (adm)</strong> : Accès complet à toutes les fonctionnalités</li>
+	<li><strong>Trésorier (tre)</strong> : Accès à la gestion des adhérents, événements et documents</li>
+	<li><strong>Membre (mem)</strong> : Accès uniquement aux documents</li>
+</ul>
+<img src="images/authen.png" width="50%">
+</section>
+
+<section class="feature">
+<a name=membres></a>
+<h2>Gestion des Adhérents</h2>
+<p>Module complet pour gérer les membres de votre association :</p>
+<ul>
+	<li><strong>Rôles</strong> : Définir les différents rôles dans l'association</li>
+	<li><strong>Membres</strong> : Ajouter, modifier et supprimer les membres</li>
+	<li><strong>Catégories</strong> : Classer les membres par catégories (Adhérent, Bénévole, Responsable)</li>
+	<li><strong>Cotisations</strong> : Suivre les paiements de cotisations</li>
+</ul>
+<img src="images/service.png" width="50%">
+<a href=#haut>Haut</a>
+</section>
+
+<section class="feature">
+<a name=events></a>
+<h2>Activités et Événements</h2>
+<p>Organisez et gérez les événements de votre association :</p>
+<ul>
+	<li><strong>Événements</strong> : Créer et planifier des événements (tournois, assemblées générales, etc.)</li>
+	<li><strong>Participants</strong> : Gérer les inscriptions et la présence aux événements</li>
+	<li><strong>Suivi</strong> : Suivre le statut de participation (présent, absent, inscrit)</li>
+</ul>
+<a href=#haut>Haut</a>
+</section>
+
+<section class="feature">
+<a name=docs></a>
+<h2>Gestion des Documents</h2>
+<p>Centralisez tous vos documents associatifs :</p>
+<ul>
+	<li><strong>Statuts</strong> : Stockage des statuts de l'association</li>
+	<li><strong>Procès-verbaux</strong> : Archivage des PV d'assemblées</li>
+	<li><strong>Rapports financiers</strong> : Documents financiers</li>
+	<li><strong>Plannings</strong> : Documents de planification</li>
+</ul>
+<a href=#haut>Haut</a>
+</section>
+
+<section class="feature">
+<a name=finance></a>
+<h2>Finance de l'Association</h2>
+<p>Gérez les finances de votre association (accessible aux administrateurs uniquement) :</p>
+<ul>
+	<li><strong>Dépenses</strong> : Enregistrer et suivre toutes les dépenses</li>
+	<li><strong>Catégories de dépenses</strong> : Organiser les dépenses par catégories</li>
+	<li><strong>Fournisseurs</strong> : Gérer les relations avec les fournisseurs</li>
+	<li><strong>Justificatifs</strong> : Lier les documents justificatifs aux dépenses</li>
+</ul>
+<a href=#haut>Haut</a>
+</section>
+
+<section class="feature">
+<a name=config></a>
+<h2>Configuration de l'Association</h2>
+<p>Configurez les paramètres spécifiques à votre association :</p>
+<ul>
+	<li><strong>Type d'association</strong> : Définir le type (culturelle, sportive, etc.)</li>
+	<li><strong>Paramètres généraux</strong> : Nom, adresse, devise, langue</li>
+	<li><strong>Utilisateurs</strong> : Gérer les comptes utilisateurs et leurs droits</li>
+</ul>
+<table>
+	<tr><td><img src="images/ajouter.png"><td>Permet d'ouvrir le formulaire de saisie des données de la nouvelle entité.</tr>
+	<tr><td><img src="images/supprimer.png"><td>Permet d'ouvrir le formulaire de confirmation de la suppression de la ligne des données sélectionnée. <br><font color = red> ** ATTENTION : LA LIGNE N'EST PAS RÉCUPÉRABLE **</font></tr>
+</table>
+<a href=#haut>Haut</a>
+</section>
+
+</main>
+<footer>
+<p>&copy; 2024 AssoManager - Application de Gestion d'Associations. Tous droits réservés.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+Politique de confidentialité 
+-----------------------------
+
+Dernière mise à jour : [03/05/2024]
+
+Nous accordons une grande importance à la protection de vos informations personnelles. Cette politique de confidentialité décrit les types d'informations que nous collectons lorsque vous utilisez notre application VBN (ci-après "l'Application") et la manière dont nous utilisons, partageons et protégeons ces informations.
+
+** Informations collectées
+
+Lorsque vous utilisez l'Application, nous pouvons collecter les types d'informations suivants :
+
+Informations que vous nous fournissez directement : Lorsque vous créez un compte ou utilisez certaines fonctionnalités de l'Application, nous pouvons vous demander de fournir des informations telles que votre nom, votre adresse e-mail, votre numéro de téléphone, etc.
+Informations sur l'utilisation de l'Application : Nous pouvons collecter des informations sur la manière dont vous utilisez l'Application, telles que les fonctionnalités que vous utilisez, les pages que vous consultez, etc. Ces informations peuvent être collectées à l'aide de cookies et d'autres technologies de suivi.
+Informations de géolocalisation : Si vous nous autorisez à le faire, nous pouvons collecter des informations de géolocalisation lorsque vous utilisez l'Application.
+
+** Utilisation des informations
+
+Nous pouvons utiliser les informations collectées pour :
+
+Fournir, maintenir et améliorer l'Application et nos services.
+Vous envoyer des informations administratives, telles que des notifications concernant l'Application, des mises à jour, etc.
+Vous envoyer des communications marketing, sous réserve de votre consentement lorsque cela est requis par la loi.
+
+** Partage des informations
+
+Nous pouvons partager vos informations avec des tiers dans les circonstances suivantes :
+
+Avec des prestataires de services tiers qui travaillent en notre nom pour fournir des services liés à l'Application.
+Pour se conformer à des obligations légales ou pour protéger nos droits, notre propriété ou notre sécurité, ainsi que ceux de nos utilisateurs.
+
+** Protection des informations
+
+Nous mettons en place des mesures de sécurité pour protéger vos informations contre tout accès, utilisation ou divulgation non autorisé.
+
+** Vos choix
+
+Vous pouvez choisir de ne pas nous fournir certaines informations, mais cela peut affecter votre utilisation de certaines fonctionnalités de l'Application.
+
+** Mises à jour de la politique de confidentialité
+
+Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous recommandons de consulter régulièrement cette page pour prendre connaissance des dernières mises à jour.
+
+** Contactez-nous
+
+Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à [supingenierie@gmail.Com].
